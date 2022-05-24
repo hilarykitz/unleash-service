@@ -1,0 +1,23 @@
+{
+  "name": "unleash-service",
+  "version": "1.0.0",
+  "description": "Node service for hosted Unleash feature management ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hilarykitz/unleash-service.git"
+  },
+  "author": "Hilary Kitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hilarykitz/unleash-service/issues"
+  },
+  "homepage": "https://github.com/hilarykitz/unleash-service#readme",
+  "dependencies": {
+    "@unleash/proxy": "^0.8.0"
+  }
+}
